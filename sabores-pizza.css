@@ -1,0 +1,151 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ÍCONES */
+@import url('https://css.gg/css');
+
+/* GERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #fff;
+}
+
+:root {
+  --branco: #f8f9fa;
+  --cinza: #f1f3f5;
+  --cinza-escuro: #dee2e6;
+  --laranja-principal: #f59f00;
+  --laranja-fraco: #fff4e6;
+  --laranja-médio: #ffd8a8;
+  --verde: #82c91e;
+}
+
+/* HEADER */
+.navbar {
+  margin: auto;
+  width: 50vw;
+  height: 10vh;
+  background-color: var(--laranja-principal);
+  box-shadow: 0px 10px 10px 0px var(--cinza-escuro);
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.menu-nav {
+  font-size: 1.4rem;
+  color: #fff;
+  width: 80%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.menu-info {
+  font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.menu-info-titulo,
+.quantia-produtos {
+  color: #2f2f3f;
+  font-weight: 600;
+}
+
+.gg-shopping-cart {
+  --ggs: 1.75;
+  margin-top: 50%;
+  cursor: pointer;
+}
+
+/* CARDÁPIO */
+.cardapio {
+  margin: auto;
+  width: 50vw;
+  height: 85vh;
+  background-color: var(--branco);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.sabores-container {
+  margin: auto;
+  width: 90%;
+  height: 95%;
+  background-color: var(--cinza-escuro);
+  border-radius: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.tamanho-pizza {
+  width: 80%;
+  height: 25%;
+  background-color: var(--cinza);
+  border-radius: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.sabores-pizza {
+  width: 95%;
+  height: 75%;
+  background-color: var(--cinza);
+  margin-bottom: 2.4rem;
+  border-radius: 2.4rem;
+  overflow-y: scroll;
+}
+
+/* FOOTER + STATUS */
+footer {
+  margin: auto;
+
+  width: 50%;
+  height: 5vh;
+  background-color: #4f4f68;
+  color: #fff;
+  font-size: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer .status {
+  font-weight: 600;
+  color: var(--verde);
+}

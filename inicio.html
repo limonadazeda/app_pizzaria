@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App de Pizzaria</title>
+    <link rel="stylesheet" href="inicio.css" />
+  </head>
+
+  <header>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <img src="./imgs/teplate-logo.png" alt="Logo da empresa" class="logo" />
+
+      <!-- MENU DE NAV-->
+      <div class="menu-nav">
+        <div class="status menu-info">
+          <span class="menu-info-titulo">Estabelecimento</span>
+          <span>Aberto</span>
+        </div>
+        <div class="tempo-entrega menu-info">
+          <span class="menu-info-titulo">Entrega</span>
+          <span>30 - 60min</span>
+        </div>
+        <div class="tempo-retirada menu-info">
+          <span class="menu-info-titulo">Retirada</span>
+          <span>15 - 30min</span>
+        </div>
+        <div class="pedido-minimo menu-info">
+          <span class="menu-info-titulo">Pedido mínimo</span>
+          <span>$RS 50,00</span>
+        </div>
+        <div class="frete-gratis menu-info">
+          <span class="menu-info-titulo">Frete grátis</span>
+          <span>$RS 100,00</span>
+        </div>
+        <div class="carrinho">
+          <span class="quantia-produtos">0</span>
+          <i class="gg-shopping-cart"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <!-- CARDÁPIO -->
+    <section class="cardapio">
+      <!-- MENU DE PROMOÇÕES -->
+      <div class="promos">
+        <div class="promo-info">
+          <span class="promo-info titulo">Promoção do dia</span>
+          <span>Pizza Grande</span>
+          <span class="promo-info preco">R$ 75,00</span>
+        </div>
+        <div class="promo-img"></div>
+      </div>
+
+      <!-- SELEÇÃO DE TAMANHO DA PIZZA -->
+      <div class="tamanhos-pizza">
+        <span class="tamanho-pizza-titulo">Selecione o tamanho:</span>
+        <div class="tamanhos-cards">
+          <div class="pizza pequena">
+            <span>Pequena</span>
+            <div class="pizza-img"></div>
+            <span class="pizza-info">4 pedaços</span>
+          </div>
+          <div class="pizza media">
+            <span>Média</span>
+            <div class="pizza-img"></div>
+            <span class="pizza-info">6 pedaços</span>
+          </div>
+          <div class="pizza grande">
+            <span>Grande</span>
+            <div class="pizza-img"></div>
+            <span class="pizza-info">8 pedaços</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEBIDAS -->
+      <div class="bebidas">
+        <div class="seta">
+          <i class="gg-chevron-left"></i>
+        </div>
+        <div class="bebida">
+          <span>Coca</span>
+          <div class="refri coca"></div>
+        </div>
+        <div class="bebida">
+          <span>Guaraná</span>
+          <div class="refri guarana"></div>
+        </div>
+        <div class="bebida">
+          <span>H20</span>
+          <div class="refri h20"></div>
+        </div>
+        <div class="bebida">
+          <span>Suco</span>
+          <div class="refri suco"></div>
+        </div>
+        <div class="seta">
+          <i class="gg-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>Todos os direitos reservados - <span>2024</span></span>
+      <span
+        >Produzido pela <span class="footer-empresa">WD Software</span></span
+      >
+    </footer>
+  </body>
+</html>
