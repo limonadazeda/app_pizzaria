@@ -42,14 +42,21 @@
   color: #4f4f68;
   font-size: 1.8rem;
   margin: auto;
-  width: 75%;
+  width: 100%;
   height: 20%;
-  font-weight: 600;
+  font-weight: 500;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.2rem;
+}
+
+.tamanho,
+.quantidade_sabor {
+  margin-left: 1.2rem;
+  font-weight: 400;
 }
 
 .sabores-pizza {
